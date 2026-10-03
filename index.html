@@ -1,12 +1,35 @@
 <!doctype html>
 <html lang="en">
+<head> for nextcheck.net/index.html.
+     Replaces the existing <head> block. Keeps the current title/description,
+     adds canonical, theme-color, Open Graph + Twitter cards so shared links
+     render a preview instead of a bare URL.
+     og:image -> /assets/og-card.png (1200x630, in nextcheck.net/assets/). -->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NextCheck — Budget by paycheck, not month</title>
   <meta name="description" content="NextCheck plans your bills around your actual pay schedule. Free core app, Pro adds credit cards, savings, and trends. iPhone, iPad, and web." />
-  <link rel="icon" type="image/png" href="assets/logo.png" />
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="canonical" href="https://nextcheck.net/" />
+  <meta name="theme-color" content="#2E70ED" />
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="NextCheck" />
+  <meta property="og:title" content="NextCheck — Budget by paycheck, not month" />
+  <meta property="og:description" content="NextCheck plans your bills around your actual pay schedule. Free core app, Pro adds credit cards, savings, and trends. iPhone, iPad, and web." />
+  <meta property="og:url" content="https://nextcheck.net/" />
+  <meta property="og:image" content="https://nextcheck.net/assets/og-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="NextCheck — Budget by paycheck, not month." />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NextCheck — Budget by paycheck, not month" />
+  <meta name="twitter:description" content="NextCheck plans your bills around your actual pay schedule. Free core app, Pro adds credit cards, savings, and trends." />
+  <meta name="twitter:image" content="https://nextcheck.net/assets/og-card.png" />
+  <meta name="twitter:image:alt" content="NextCheck — Budget by paycheck, not month." />
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
 
